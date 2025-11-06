@@ -11,12 +11,12 @@ The purpose of this dataset is to analyse advertising performance, optimize targ
 • Audience insights (demographics, location, interests)
 This dataset is ideal for building a Power BI Dashboard to evaluate campaign effectiveness, budget utilization, and user engagement patterns.
 
-## Process
-# 1. Data Preparation
+# Process
+## 1. Data Preparation
 Collect advertising data from Kaggle (Facebook & Instagram).
 Clean data, handle missing values, reformat date data, money
 Create a Calendar table and reformat date columns to support time filtering.
-# 2. Data Modeling
+## 2. Data Modeling
 Build a Star Schema including tables: ad_events, ads, campaigns, user (ad_events : fact table)
 Create DAX measures to calculate the main KPI:
 CTR = Clicks / Impressions
@@ -25,13 +25,13 @@ Conversion Rate = Conversions / Clicks
 Engagement = [Clicks] + [Share] + Comment
 Purchase Rate = Purchase / Clicks
 Apply Selected Measure Value to flexibly compare multiple KPIs in the same chart
-# 3. Visualization
+## 3. Visualization
 Design 2 separate dashboard pages:
 Facebook Performance: track advertising campaigns, impressions, CTR, CPC, conversions, etc.
 Instagram Performance: track similar performance, helping to compare the effectiveness between the two platforms.
 Use navigator buttons to smoothly switch pages.
 Add dynamic titles, cards, slicers (time, campaign, target interest) to help users interact and filter data quickly.
-# 4. Insight 
+## 4. Insight 
 Strong awareness & engagement (high CTR & ER), but low purchase funnel
 efficiency : need better conversion strategy.
 Target audience: Females, 18–30, especially in India & Brazil.
