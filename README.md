@@ -37,3 +37,8 @@ The purpose of this dataset is to analyse advertising performance, optimize targ
 - Timing: Schedule ads in the afternoon & evening slots.
 - Budget Optimization: Shift more spend to high-performing geographies and ad formats.
 - Action: Improve landing pages, offers, retargeting campaigns to lift purchase rate.
+# Dasboard
+![Dashboard 1](https://github.com/user-attachments/assets/c8086fc0-34f2-496d-8471-ca182fa1c24c)
+![Dashboard 2](https://github.com/user-attachments/assets/8d67d4ff-ed06-40ff-8305-0eea2b825ac9)
+
+
